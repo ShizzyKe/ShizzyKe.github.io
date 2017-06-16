@@ -1,0 +1,441 @@
+ <!DOCTYPE html>
+<html>
+<head>
+  <title>ShizzyPlay</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/font-awesome.css"> 
+  <link rel="stylesheet" href="css/animate.css"> 
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  
+
+<style type="text/css">
+
+    #home{padding-top: 15%;
+      padding-bottom: 20%;
+      padding-left: 20%;
+      padding-right: 20%;
+      background-image: url(images/shizzy2.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    #home h1{
+      font-size: 60px;
+      color: #757575;
+      
+    }
+    #home p{
+      font-size: 30px;
+      font-family: "Times New Roman";
+      
+    }
+    #home a{
+      color: black;
+      padding: 3%;
+      font-size: 20px;
+      font-family: "Times New Roman";
+      background-color: #d7ccc8;
+    }
+    #rated{
+      padding-top:5%;
+      padding-bottom: 20%;
+      padding-right: 3%;
+      padding-left: 3%;
+      background-color: #d7ccc8;
+    }
+    #rated hr{border:solid 2px maroon;
+      width: 15%}
+
+      .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 40%;
+      margin: auto;
+      height: fixed;
+    }
+    
+    #charts {
+      padding-top:10%;
+      padding-bottom: 10%;
+      padding-right: 3%;
+      padding-left: 3%;
+      background-color: #d7ccc8;
+      background-image: url(images/charts.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+    #charts hr{border:solid 2px maroon;
+      width: 15%}
+    #charts h4,p{color: black;}
+
+    #news{padding-top:5%;
+      padding-bottom: 5%;
+      padding-right: 3%;
+      padding-left: 3%;
+      background-color: #d7ccc8;}    
+
+    #news hr{border:solid 2px maroon;
+      width: 15%;}
+
+    #home marquee{font-family: "Times New Roman";
+                  font-size: 30px; }
+
+    #contact{ padding-top:5%;
+      padding-bottom: 5%;
+      padding-right: 3%;
+      padding-left: 3%;
+      background-color: #d7ccc8;
+
+    }
+    #contact hr{border:solid 2px maroon;
+      width: 15%}
+
+    #contact span{color: blue;}
+
+    .table-hover{background-color:#e0e0e0; }
+
+    #footer{background-color: #a1887f;}
+    
+
+
+
+
+</style>
+</head>
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span> 
+        </button>
+        <a class="navbar-brand" href="#">ShizzyPlay</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="index.html">HOME</a></li>
+          <li><a href="#rated">Rated Shizzy</a></li>
+          <li><a href="#charts">Charts Worldwide</a></li> 
+          <li><a href="#news">Latest Music News</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span>New? Get Shizzy</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login to Shizzy </a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!--home section-->
+    <section id="home" class="row text-center">
+      <div class="col-md-12 wow fadeInUp" data-wow-delay="0.5s" >
+        <h1>Welcome to Shizzyplay</h1>
+        <p>You love music, so do we</p>
+        <br><br><br>
+        <a href="#rated">Be Shizzy</a>
+        <br><br><br><br>
+        <marquee>"The Good Thing About Music Is That When It Hits You, You Feel No Pain</marquee>
+      </div>
+    </section>
+
+    <!--Play section-->
+
+    <section id="rated" class="row">
+      <div class="text-center">
+        <h1>Rated Shizzy</h1>
+        <hr>
+        <h3>Here are this week's top tracks selected accross different charts worlwide that you must listen to.</h3>
+      </div>
+
+      <div class="col-md-12 wow fadeInLeft" data-wow-delay="0.5s">
+        <div class="container">
+        <br>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+
+              <!-- Wrapper for slides -->
+            <div class="carousel-inner row text-center" role="listbox" >
+
+              <div class="item active">
+                <img src="images/drake.jpg" alt="Drake" width="460" height="345">
+                <div class="carousel-caption">
+                 <h3>Controlla</h3>
+                 <h5>Drake Feat. Popcaan</h5>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="images/aka.jpg" alt="AKA" width="460" height="345">
+                <div class="carousel-caption">
+                  <h3>10 Fingers</h3>
+                  <h5>AKA Feat. Anatii</h5>
+                </div>
+              </div>
+      
+              <div class="item">
+                <img src="images/brian.jpg" alt="Brian" width="460" height="345">
+                <div class="carousel-caption">
+                  <h3>Leo</h3>
+                  <h5>Brian Nadra</h5>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="images/don.jpg" alt="Don" width="460" height="345">
+                <div class="carousel-caption">
+                  <h3>He Never Sleeps</h3>
+                  <h5>Don Moen</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+
+      <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+<!--charts section-->
+
+    <section id="charts" class="row">
+      <div class="text-center">
+        <h2>Music Charts</h2>
+        <hr>
+        <h3>Take a look at the top tracks in the world charts right now.</h3>
+      </div>   
+
+      <div class="container col-md-3 wow bounceInDown" data-wow-delay="0.6s">
+        <h4>Hip Hop Charts</h2>
+        <p>This Week's Top Hip Hop Tracks</p>            
+        <table class="table table-hover " >
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>Track Name</th>
+              <th>Artist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Green and Purple</td>
+              <td>Travis Scott</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Money Trees</td>
+              <td>Kendrick Lamar</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Toa Tint</td>
+              <td>Khaligraph Jones</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="container col-md-3 wow bounceInDown" data-wow-delay="0.9s" >
+        <h4>RnB Charts</h2>
+        <p>This Week's Top RnB Tracks</p>            
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>Track Name</th>
+              <th>Artist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Grass Ain't Greener</td>
+              <td>Chris Brown</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Probably For Lovers</td>
+              <td>Just A Band</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Pree Me</td>
+              <td>Burna Boy</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      
+      <div class="container col-md-3 wow bounceInDown" data-wow-delay="1.2s">
+        <h4>Gospel Hop Charts</h2>
+        <p>This Week's Top Gospel Tracks</p>            
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>Track Name</th>
+              <th>Artist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Nipe Macho</td>
+              <td>Christina Shusho</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Have Your Way </td>
+              <td>Don Moen</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Mateke</td>
+              <td>Size 8</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="container col-md-3 wow bounceInDown" data-wow-delay="1.5s">
+        <h4>Classical Charts</h2>
+        <p>This Week's Top Classical Tracks</p>            
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th>Position</th>
+              <th>Track Name</th>
+              <th>Artist</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Can You Stop The Rain</td>
+              <td>Peabo Bryson</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Sweetest Taboo</td>
+              <td>Sade</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Human Nature</td>
+              <td>Michael Jackson</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+   
+
+    <!--news section-->
+
+    <section id="news" class="row">
+      <div class="text-center">
+          <h2>Latest Music News</h2>
+          <hr>
+          <h4>Catch Up On The Latest News happening in the music scene</h4>
+      </div>
+      <br><br>
+      <div>
+        <div class="col-md-4 wow fadeInRight" data-wow-delay="0.6s">
+          <h2>How SZA Finally Broke Through</h2>
+          <p>It had been two years since she’d signed a deal with TDE, Kendrick Lamar’s label, and she had been struggling to create songs for her debut album. The hallucinogens changed that. “I heard everything singing...</p>
+          <img src="images/news.jpg" width="250" height="250">
+          <button type="button" class="btn btn-info">Read More</button>
+        </div>
+
+        <div class="col-md-4 wow fadeInLeft" data-wow-delay="0.9s">
+          <h2>Chance The Rapper Announces $2 Million Funding Challenge</h2>
+          <p>On Wednesday (June 14), he announced his participation in the Go Innovation Challenge in coordination with the Chicago Beyond philanthropy fund that seeks creative ideas to make Chicago a more positive place for the city's youth...</p>
+          <img src="images/news2.jpg" width="250" height="250">
+          <button type="button" class="btn btn-info">Read More</button>
+        </div>
+
+        <div class="col-md-4 wow fadeInUp" data-wow-delay="1.2s">
+          <h2>OVO Sound Duo Majid Jordan Talk Meeting in a Bar, Self-Titled Debut & Working With Drake</h2>
+          <p>Before combining their talents to form OVO Sound duo Majid Jordan, Majid Al Maskati and Jordan Ullman's friendship blossomed in a bar. It was Majid's 21st birthday and he helped sneak a then-18-year-old Jordan into Toronto pub...</p>
+          <img src="images/news3.jpg" width="250" height="250" >
+          <button type="button" class="btn btn-info">Read More</button>
+        </div> 
+      </div>     
+    </section>
+
+<!--Contact us Section-->
+    <section id="contact" class="row">
+      <div id="contact" class="text-center">
+        <h2>Contact Us</h2>
+        <hr>
+        <P>Link With Us On Any Of Our Social Networks And You Leave A Message Below Too. </P>
+      </div>
+     
+      <div class="col-md-12">
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <input type="text" class="form-control" id="name" placeholder="Enter Name">
+          </div>
+          <div class="form-group">
+            <input type="email" class="form-control" id="email" placeholder="Enter Email">
+          </div>
+        </form>
+      </div>
+      <div>
+      <form>
+          <div class="form-group col-md-8">
+            <textarea class="form-control" rows="5" id="comment" placeholder="Comment"></textarea>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </div>
+      </form>
+          <div class="col-md-4" >
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d2371.781536907361!2d36.79868940551287!3d-1.2654840529747367!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m5!1s0x182f1741d3321a35%3A0xb86a59b8c84a89a5!2sKipro+Centre%2C+Opposite+Parklands+Bapilsi+Church%2C+Sports+Rd%2C+Nairobi!3m2!1d-1.2647874!2d36.8007807!4m0!5e0!3m2!1sen!2ske!4v1497465717637" width="600" height="300" frameborder="" style="border:0" allowfullscreen></iframe>
+          </div>
+      <div class="col-md-4">
+           <a href="" class="btn btn-info">FAQ</a>
+           <a href="" class="btn btn-info">Facebook</a>
+           <a href="" class="btn btn-info">Twitter</a>
+           <a href="" class="btn btn-info">Instagram</a>
+      </div>
+      <div class="col-md-4">
+        <p><span class="glyphicon glyphicon-phone" ></span>  Facebook</p>
+        <p><span class="glyphicon glyphicon-envelope"></span>  shizzyplay@music.co.ke</p> 
+      </div> 
+      </div>
+    </section>
+
+<div id="footer">
+  <div class="container text-center">
+    <p>Copyright &copy; 2017. Designed by eMobilis. </p>
+  </div>
+</div>
+  <script src="js/jquery-2.1.1.min.js"></script>     
+  <script src="js/bootstrap.min.js"></script>  
+  <script src="js/parallax.min.js"></script> 
+  <script src="js/wow.min.js"></script> 
+  <script src="js/jquery.easing.min.js"></script> 
+  <script src="js/fliplightbox.min.js"></script> 
+  <script src="js/functions.js"></script>     
+</body>
+</html>
